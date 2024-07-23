@@ -1,3 +1,4 @@
+/* Hero.module.css */
 @import "../../vars.css";
 
 .container {
@@ -51,9 +52,11 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 500px; 
+  height: 300px;
+  border-radius: 20%;
+  object-fit: cover;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;

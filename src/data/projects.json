@@ -1,27 +1,23 @@
 [
     {
-      "title": "Project A",
+      "title": "Sentiview- Real time Social Media analysing &Monitoring System",
+      "imageSrc": "projects/smms.png",
+      "description": "",
+      "skills": ["Angular", "FastApi", "Gemini LLM", "AWS-comprehend Sentiment Analysis Model", "Time Series Analysis Model(prophet)", "MongoDB", "Github"]
+    },
+    {
+      "title": "Personal Portfolio",
+      "imageSrc": "projects/pp.png",
+      "description": "This is a project made to show case the my skills.",
+      "skills": ["React"],
+      "source": "https://github.com/nuwanisamarakoon/MyPortfolio"
+    },
+    {
+      "title": "Intelligent Door Locking and Alerting System.",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/nuwanisamarakoon/Intelligent-Door-Lockiing-and-Alerting-System"
     }
   ]
   
