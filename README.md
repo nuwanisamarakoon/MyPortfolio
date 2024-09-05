@@ -1,4 +1,4 @@
-# Nuwani Samarakoon's Personal Portfolio
+# My Personal Portfolio
 
 This is the official portfolio of **Nuwani Samarakoon**, an AI undergraduate passionate about machine learning, IT solutions, and enhancing productivity while ensuring privacy. The portfolio showcases my educational background, skills, projects, and work experience in web development, machine learning, and software engineering.
 
