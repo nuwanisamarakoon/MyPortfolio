@@ -15,7 +15,7 @@
     {
       "title": "Intelligent Door Locking and Alerting System.",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "",
       "skills": ["React", "Express", "Node"],
       "source": "https://github.com/nuwanisamarakoon/Intelligent-Door-Lockiing-and-Alerting-System"
     }

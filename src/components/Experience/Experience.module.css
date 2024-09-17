@@ -1,4 +1,3 @@
-/* Experience.module.css */
 @import "../../vars.css";
 
 .container {
@@ -6,6 +5,7 @@
   margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -14,7 +14,9 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  margin-left: 20px; /* Adjust this value as needed */
+  margin-left: 0px;
+  margin-bottom: 20px; 
+  margin-top: 50px; /* Space below title */
 }
 
 .content {
@@ -22,25 +24,15 @@
   flex-direction: column;
   gap: 40px;
   margin-top: 20px;
-  margin-left: 80px; /* Adjust this value as needed */
+  margin-left: 80px;
 }
 
-.category {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.categoryTitle {
-  font-size: 30px;
-  font-weight: 600;
-  color: var(--color-accent);
-}
-
+/* Skills Section */
 .skills {
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
+  justify-content: center; /* Center the skills */
 }
 
 .skill {
@@ -52,22 +44,59 @@
 
 .skillImageContainer {
   background-color: var(--color-secondary);
-  border-radius: 100%;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
 }
 
 .skillImageContainer img {
-  width: 75px;
+  width: 60px;
 }
 
 .skill p {
   font-size: 25px;
   font-family: var(--font-roboto);
   font-weight: 500;
+}
+
+.certification {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  align-items: center;
+  gap: 15px; /* Adjust gap between image and title */
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.certificationImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 50%; /* Keep the image in a circular shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+}
+
+.certificationImageContainer img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.certificationLink {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 25px; /* Adjust font size if needed */
+}
+
+.certificationLink:hover {
+  color: var(--color-accent-dark);
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 830px) {
@@ -79,5 +108,9 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .certifications {
+    grid-template-columns: 1fr; /* One column on smaller screens */
   }
 }

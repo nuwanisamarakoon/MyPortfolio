@@ -13,7 +13,7 @@ export const Hero = () => {
           My passion lies in the intersection of software development and machine learning.If you're interested in knowing more, 
           don't hesitate to get in touch!
         </p>
-        <a href="mailto:nunuwanisamarakoon.online@gmail.com" className={styles.contactBtn}>
+        <a href="#contact" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
